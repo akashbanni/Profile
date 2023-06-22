@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: 'Josefin Sans','Sans-serif';
 }
 body{
-    background-color:azure;
+    background-color: rgb(240, 255, 241)
 }
 .center{
     display: flex;
@@ -60,6 +60,7 @@ body{
 .active_arr{
     transform: translate(80%,80%);
 }
+
 .left_container{
     position: absolute;
     background: #0f2027;
@@ -75,6 +76,7 @@ body{
 .active{
     transform: translate(0) rotate(0);
 }
+
 .left_container p{
     margin-bottom: 15px;
     font-size: 1.2rem;
@@ -107,9 +109,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
 }
 .padding{
     padding: 5px;
     float: left;
+}
+.contact_info{
+    display: flex;
+    color: rgb(155, 155, 155);
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
 }
