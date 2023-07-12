@@ -122,3 +122,12 @@ body{
     justify-content: center;
     padding-top: 30px;
 }
+
+a:hover{
+    
+    transform: scale(1.5)
+}
+
+.icons{
+    transition: transform .2s;
+}
