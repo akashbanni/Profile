@@ -120,7 +120,7 @@ body{
     color: rgb(155, 155, 155);
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 a:hover{
@@ -145,19 +145,21 @@ a:hover{
 }
 
 .box1{
-    width: 30%;
+    width: 25%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
     border-radius: 23px;
     flex-direction: column;
     color:rgb(246, 242, 242);
     position: relative;
-    overflow: hidden;
     margin-top: 26px;
     background-color: #2c5364;
-    margin-left: 2%;
+    margin-left: 6%;
 }
-
+.box1:hover{
+    transform: scale(1.1);
+    color:rgb(244, 206, 149);
+}
 .div{
     margin-left: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 }
